@@ -6,11 +6,26 @@
 def one():
   pass
 
+  except FileNotFoundError:
+        print("File not found.")
+    except Exception as e:
+        print("An error occurred:", e)
+
 def two():
   pass
 
+  except FileNotFoundError:
+        print("File not found.")
+    except Exception as e:
+        print("An error occurred:", e)
+
 def main():
   pass
+
+  except FileNotFoundError:
+        print("File not found.")
+    except Exception as e:
+        print("An error occurred:", e)
 
 
 if (__name__ == "__main__"):
